@@ -1,0 +1,15 @@
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.search-box input{
+    padding: .7rem 1.4rem;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+
+
+}
