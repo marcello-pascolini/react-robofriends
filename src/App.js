@@ -1,10 +1,8 @@
-
 import './App.css';
-import CardList from './components/CardList'
-import SearchBox from './components/SearchBox';
+import CardList from './components/CardList/CardList'
+import SearchBox from './components/SearchBox/SearchBox';
 import {robots} from './components/robots'
 import { Component } from 'react';
-
 
 class App extends Component{
   // constructor help to manage state of robots obj and seachinput
@@ -37,7 +35,5 @@ class App extends Component{
     )
   }
 }
-
-
 
 export default App;
